@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExampleScroll</string>
+    <string name="head">Android</string>
+    <string name="shead">Introduction to Android</string>
+    <string name="thead">History of Android</string>
+    <string name="text">Android devices form a very essential part of a huge section of mobile phone users in today’s world. With the global turmoil in the COVID-19 eras, the population has now entered a digital sphere. Android is the most used OS in smartphones during these days of transformation. But when did something like an android take birth in the first place and how did it decide its journey of growth? We did not know earlier than mother planet was to go on a social distancing strike in 2020, so how were we still prepared? Let’s answer all these questions right here!
+    <br>Android 1.0 (API 1) was launched on the 23rd  Of September 2008. It was incorporated into the HTC Dream smartphone (aka T-mobile G1 in the US). It thus became the first-ever Android device. The features it offered included Google Maps, YouTube, an HTML browser, Gmail, camera, Bluetooth, Wi-Fi, and many more. The unique feature at that time was the presence of an Android Market (now Play Store) from where the users could download and update Android applications additional to what was already pre-installed. A few months later, in February 2009, Google released the Android 1.1 (API 2) update for HTC Dream.  This time the aim was to make it more robust and user-friendly. There were four major updates in this version:
+    </br>
+    <br>This is the reference from https://developer.android.com/</br>
+        <br>My mail id is saikrishnakukkala@gmail.com</br>
+        <br>My number is +919948012537</br>
+    </string>
+</resources>
