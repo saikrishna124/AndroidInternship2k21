@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="fon"
+        android:gravity="center"
+        android:text="Registration Form"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+      android:layout_marginTop="10dp"
+        android:hint="Enter name"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter mail" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:hint="Enter number" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:hint="Enter password" />
+
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner"
+    android:entries="@array/branches"
+   android:textAlignment="center"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/radiogroup"
+        >
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/telugu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telugu" />
+    <CheckBox
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English" />
+
+    <CheckBox
+        android:id="@+id/hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hindi" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="click here to get dob" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+</LinearLayout>

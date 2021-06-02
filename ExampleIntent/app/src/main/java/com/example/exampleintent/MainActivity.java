@@ -43,7 +43,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void Search(View view) {
         String n=link.getText().toString();
-        Uri uri=Uri.parse("https://"+n);
+//        Uri uri=Uri.parse("vnd.youtube:"+"Q-dNnMlaGNg");
+        Uri uri=Uri.parse("vnd.youtube:");
+
+//        val intentApp = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + youtubeID))
+//        Uri uri=Uri.parse("https://"+n);
         Intent i=new Intent(Intent.ACTION_VIEW,uri);
         startActivity(i);
     }
