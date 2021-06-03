@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="name">Enter Name</string>
+    <string-array name="branches">
+        <item>IT</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>Mech</item>
+        <item>Civil</item>
+    </string-array>
+</resources>
